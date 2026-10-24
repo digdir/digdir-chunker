@@ -1,5 +1,5 @@
 # filepath: ./Dockerfile
-FROM jkaninda/laravel-php-fpm:latest
+FROM jkaninda/laravel-php-fpm:latest@sha256:9f5ba756b4c90165a9a87d0e1086554a7d554ee56cd06ac54c050257905f9f56
 
 ENV PATH="/opt/marker/bin:${PATH}"
 
